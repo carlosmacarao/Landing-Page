@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/*  background-color: rgb(34, 34, 34)
+    rgb(132, 14, 201)
+*/
+
+body {
+    background-color: rgb(34, 34, 34);
+    font-family: 'poppinsregular';
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tittle {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.5s all;
+}
+
+#sign-up-btn {
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#sign-up-btn:hover {
+    background-color: rgb(132, 14, 201);
+    color: white;
+    transition: 0.5s all;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'poppinsmedium';
+}
+
+span {
+    color: rgb(132, 14, 201);
+}
+
+p {
+    font-family: 'poppinslight';
+    line-height: 20px;
+    max-width: 500px;
+    text-align: justify;
+}
+
+img {
+    width: 580pxpx;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
