@@ -4,8 +4,14 @@
     rgb(132, 14, 201)
 */
 
+:root {
+    --primary-color: rgb(34, 34, 34);
+    
+    --main-font: 'poppins';
+}
+
 body {
-    background-color: rgb(34, 34, 34);
+    background-color: var(--primary-color);
     font-family: 'poppinsregular';
     color: white;
     max-width: 1200px;
